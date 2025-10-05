@@ -7,11 +7,11 @@
 		<artifactId>irap-backend</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.irap.shared</groupId>
-	<artifactId>shared-dtos</artifactId>
+	<groupId>com.irap.auth</groupId>
+	<artifactId>auth-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>shared-dtos</name>
-	<description>The shared dto between the different microservices</description>
+	<name>auth-service</name>
+	<description>the auth service where we use keyclock </description>
 	<url/>
 	<licenses>
 		<license/>
@@ -38,6 +38,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.irap</groupId>
+			<artifactId>shared-dtos</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
