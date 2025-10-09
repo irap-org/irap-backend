@@ -7,13 +7,13 @@
 		<artifactId>irap-backend</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.irap.auth</groupId>
-	<artifactId>auth-service</artifactId>
+	<groupId>com.irap.gateway</groupId>
+	<artifactId>gateway</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>auth-service</name>
+	<name>gateway</name>
 	<packaging>jar</packaging>
 
-	<description>the auth service where we use keyclock </description>
+	<description>The api gateway</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -41,7 +41,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>com.irap.shared</groupId>
 			<artifactId>shared-dtos</artifactId>

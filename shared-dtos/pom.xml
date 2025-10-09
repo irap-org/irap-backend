@@ -6,11 +6,15 @@
 		<groupId>com.irap</groupId>
 		<artifactId>irap-backend</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+
 	</parent>
 	<groupId>com.irap.shared</groupId>
 	<artifactId>shared-dtos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>shared-dtos</name>
+	<packaging>jar</packaging>
+
 	<description>The shared dto between the different microservices</description>
 	<url/>
 	<licenses>
